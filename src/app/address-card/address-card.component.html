@@ -1,8 +1,8 @@
-<div>
-  <h1>{{user.name}}</h1>
-  <h3>{{user.title}}</h3>
-  <p>{{user.address}}</p>
-  <div>
+<div class="address-card">
+  <h1 class="name">{{user.name}}</h1>
+  <h3 class="title">{{user.title}}</h3>
+  <p class="address">{{user.address}}</p>
+  <div class="phone">
     <p>Phone:</p>
     <p *ngFor="let phone of user.phone">{{phone}}</p>  
     </div>
