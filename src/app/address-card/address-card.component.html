@@ -1,0 +1,11 @@
+<div>
+  <h1>{{user.name}}</h1>
+  <h3>{{user.title}}</h3>
+  <p>{{user.address}}</p>
+  <div>
+    <p>Phone:</p>
+    <p *ngFor="let phone of user.phone">{{phone}}</p>  
+    </div>
+</div>
+
+<!-- how to pass data to compoenent  -->
