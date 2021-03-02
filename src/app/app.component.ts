@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'angular-training -demo !!!';
   
   user : User;  
+  inputText: string = "Intial value";
+
 
   constructor(){
     this.user = new User();

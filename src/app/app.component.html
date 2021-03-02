@@ -8,3 +8,11 @@
 <!-- Dynamic value passing in user object  -->
 
 <app-address-card [user]= "user"></app-address-card>    
+
+<!--  two way data binding example -->
+
+<!-- <input type="text" [value]="inputText">   one way data binding--> 
+<input type="text" [(ngModel)]="inputText">  <!--  to use ngModel we have to import module FormsModule in app module class -->
+
+
+{{inputText}}
